@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of a DevOps, Fullstack & AWS developer"
+    />
+    <title>KipCollo | DevOps · Fullstack · AWS Developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="#hero" class="nav-logo">KipCollo<span class="dot">.</span></a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">KipCollo</h1>
+        <div class="hero-roles">
+          <span class="role-tag">DevOps Engineer</span>
+          <span class="role-separator">/</span>
+          <span class="role-tag">Fullstack Developer</span>
+          <span class="role-separator">/</span>
+          <span class="role-tag">AWS Developer</span>
+        </div>
+        <p class="hero-tagline">
+          Building scalable infrastructure, robust applications, and
+          cloud-native solutions.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a
+            href="https://github.com/KipCollo"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/kipcollo"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://twitter.com/kipcollo"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter / X"
+            ><i class="fab fa-x-twitter"></i
+          ></a>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll down">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-grid">
+          <div class="about-avatar">
+            <div class="avatar-placeholder">
+              <i class="fas fa-user-astronaut"></i>
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              I'm a passionate software professional with expertise spanning
+              <strong>DevOps</strong>, <strong>Fullstack Development</strong>,
+              and <strong>Amazon Web Services (AWS)</strong>. I love turning
+              complex problems into elegant, scalable solutions — from writing
+              clean, maintainable code to automating cloud infrastructure.
+            </p>
+            <p>
+              On the backend I architect RESTful APIs and microservices; on the
+              frontend I craft responsive, accessible UIs. In the cloud I design
+              cost-effective, highly-available AWS architectures. In the pipeline
+              I automate everything from code commit to production deployment.
+            </p>
+            <ul class="about-facts">
+              <li><i class="fas fa-map-marker-alt"></i> Kenya</li>
+              <li>
+                <i class="fas fa-graduation-cap"></i> Software Engineering
+              </li>
+              <li>
+                <i class="fas fa-certificate"></i> AWS Certified Developer
+              </li>
+              <li>
+                <i class="fas fa-heart"></i> Open-source enthusiast
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+          <!-- DevOps -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <i class="fas fa-infinity skill-icon devops-color"></i>
+              <h3>DevOps</h3>
+            </div>
+            <ul class="skill-list">
+              <li>
+                <i class="fab fa-docker"></i> Docker &amp; Docker Compose
+              </li>
+              <li><i class="fas fa-dharmachakra"></i> Kubernetes (K8s)</li>
+              <li><i class="fas fa-code-branch"></i> CI/CD — GitHub Actions, Jenkins</li>
+              <li><i class="fas fa-layer-group"></i> Terraform &amp; Ansible</li>
+              <li><i class="fab fa-linux"></i> Linux Administration</li>
+              <li><i class="fas fa-chart-line"></i> Prometheus &amp; Grafana</li>
+              <li><i class="fas fa-box-open"></i> Helm Charts</li>
+            </ul>
+          </div>
+
+          <!-- Fullstack -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <i class="fas fa-layer-group skill-icon fullstack-color"></i>
+              <h3>Fullstack</h3>
+            </div>
+            <ul class="skill-list">
+              <li><i class="fab fa-react"></i> React / Next.js</li>
+              <li><i class="fab fa-node-js"></i> Node.js / Express</li>
+              <li><i class="fab fa-python"></i> Python / Django / FastAPI</li>
+              <li><i class="fab fa-java"></i> Java / Spring Boot</li>
+              <li><i class="fas fa-database"></i> PostgreSQL, MongoDB, Redis</li>
+              <li><i class="fas fa-lock"></i> REST APIs &amp; GraphQL</li>
+              <li><i class="fab fa-html5"></i> HTML5, CSS3, TypeScript</li>
+            </ul>
+          </div>
+
+          <!-- AWS -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <i class="fab fa-aws skill-icon aws-color"></i>
+              <h3>AWS Cloud</h3>
+            </div>
+            <ul class="skill-list">
+              <li><i class="fas fa-server"></i> EC2, ECS, EKS, Lambda</li>
+              <li><i class="fas fa-database"></i> RDS, DynamoDB, ElastiCache</li>
+              <li><i class="fas fa-network-wired"></i> VPC, Route 53, CloudFront</li>
+              <li><i class="fas fa-cogs"></i> CloudFormation / CDK</li>
+              <li><i class="fas fa-archive"></i> S3, Glacier</li>
+              <li><i class="fas fa-shield-alt"></i> IAM, Cognito, Secrets Manager</li>
+              <li><i class="fas fa-chart-bar"></i> CloudWatch &amp; X-Ray</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-img devops-bg">
+              <i class="fas fa-ship project-icon"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">Kubernetes</span>
+                <span class="tag">Helm</span>
+                <span class="tag">CI/CD</span>
+              </div>
+              <h3>Kubernetes Microservices Platform</h3>
+              <p>
+                Production-grade K8s cluster on AWS EKS with automated
+                blue-green deployments, Helm-managed releases, and full
+                observability via Prometheus &amp; Grafana dashboards.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/KipCollo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img fullstack-bg">
+              <i class="fas fa-shopping-cart project-icon"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+              <h3>E-Commerce Fullstack App</h3>
+              <p>
+                Full-featured e-commerce platform with React frontend, Node.js
+                /Express backend, JWT authentication, Stripe payments, and
+                real-time order tracking.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/KipCollo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img aws-bg">
+              <i class="fas fa-cloud project-icon"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">AWS Lambda</span>
+                <span class="tag">Terraform</span>
+                <span class="tag">DynamoDB</span>
+              </div>
+              <h3>Serverless Event Pipeline</h3>
+              <p>
+                Fully serverless data-ingestion pipeline using AWS Lambda, SNS,
+                SQS, and DynamoDB. Infrastructure provisioned with Terraform,
+                deployed via GitHub Actions.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/KipCollo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img devops-bg">
+              <i class="fas fa-code-branch project-icon"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">GitHub Actions</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Ansible</span>
+              </div>
+              <h3>End-to-End CI/CD Pipeline</h3>
+              <p>
+                Zero-downtime deployment pipeline with linting, unit tests,
+                Docker image builds, security scans (Trivy), and automated
+                Ansible-driven rollouts to multi-environment EC2 fleets.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/KipCollo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img fullstack-bg">
+              <i class="fas fa-tasks project-icon"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Prisma</span>
+              </div>
+              <h3>Project Management SaaS</h3>
+              <p>
+                Multi-tenant project management tool with real-time
+                collaboration (WebSockets), role-based access control, and a
+                Next.js frontend backed by a PostgreSQL / Prisma data layer.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/KipCollo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img aws-bg">
+              <i class="fas fa-shield-alt project-icon"></i>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">AWS CDK</span>
+                <span class="tag">IAM</span>
+                <span class="tag">CloudWatch</span>
+              </div>
+              <h3>Cloud Security &amp; Compliance Framework</h3>
+              <p>
+                AWS-native security baseline using CDK: automated IAM
+                least-privilege policies, CloudTrail audit logs, GuardDuty
+                alerts, and CloudWatch dashboards for compliance reporting.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/KipCollo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <p class="contact-sub">
+          Have a project in mind, a role to fill, or just want to say hello?
+          Drop me a message — I'll get back to you promptly.
+        </p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope contact-icon"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:hello@kipcollo.dev">hello@kipcollo.dev</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github contact-icon"></i>
+              <div>
+                <h4>GitHub</h4>
+                <a
+                  href="https://github.com/KipCollo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >github.com/KipCollo</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin contact-icon"></i>
+              <div>
+                <h4>LinkedIn</h4>
+                <a
+                  href="https://linkedin.com/in/kipcollo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >linkedin.com/in/kipcollo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your message…"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>
+          &copy; <span id="year"></span> KipCollo. Built with
+          <i class="fas fa-heart heart"></i> &amp; deployed on AWS.
+        </p>
+        <div class="footer-links">
+          <a
+            href="https://github.com/KipCollo"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/kipcollo"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
